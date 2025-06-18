@@ -1,0 +1,11 @@
+xmm{n}_lc.dat where n=1...5 contain the data to reproduce Fig. 1
+
+The reference times for each XMM dataset are given below.
+
+xmm1 59067.871
+xmm2 59616.82
+xmm3 59751.962
+xmm4 60298.253
+xmm5 60344.092
+
+The time binsize is 100 seconds.

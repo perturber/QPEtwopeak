@@ -1,0 +1,14 @@
+xmm{n}_gaussfit and xmm{n}_bayblocks.dat contain the data of Fig. 2. n = 1...5 correspond to xmm1...xmm5.
+
+The top row corresponds to the second and third columns of xmm{n}_gaussfit.dat while the bottom row data can be found in xmm{n}_bayblocks.dat.
+
+xmm{n}_gaussfit.dat has 3 columns: 
+col1: reference time in MJD (same for all entries)
+col2: peak time of the eruption (in hours)
+col3: uncertainty in the peak time of eruption (in hours)
+
+xmm{n}_bayblocks.dat contains 4 columns:
+col1: peak time of the eruption (in hours since MJD reference). The MJD reference is same as col1 of xmm{n}_gaussfit.dat
+col2: error in the peak time of the eruption (in hours)
+col3: average 0.25-2.5 keV count rate (EPIC:pn+MOS) at the peak time of the eruption (count/sec)
+col4: error on col3
